@@ -5,7 +5,7 @@
 #define APP_VERSION_H
 
 #define APP_NAME "tsgui"
-#define APP_OWNER "Allann Jones"
+#define APP_AUTHORS "Allann Jones"
 #define APP_URL "http://www.olivum.com.br"
 #define APP_BRIEF "Transport stream analyzer"
 

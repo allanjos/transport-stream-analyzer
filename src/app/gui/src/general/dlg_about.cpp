@@ -57,12 +57,12 @@ AboutDialog::AboutDialog(wxWindow *parent):
   label = new wxStaticText(this, wxID_STATIC, wxT(__DATE__ " " __TIME__));
   szFields->Add(label, 0, wxALL, 1);
 
-  // Owner
+  // Author(s)
 
   wxBoxSizer *szRow = new wxBoxSizer(wxHORIZONTAL);
   szTop->Add(szRow, 0, wxALL | wxALIGN_CENTER, 5);
 
-  label = new wxStaticText(this, wxID_STATIC, wxString(wxT(APP_OWNER) wxT(" ®")));
+  label = new wxStaticText(this, wxID_STATIC, wxString(wxT(APP_AUTHORS)));
   szRow->Add(label, 0, wxALL, 0);
 
   szTop->AddSpacer(3);
