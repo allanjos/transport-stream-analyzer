@@ -1,0 +1,23 @@
+Enter in the source directory:
+
+cd src
+
+
+To configured a MinGW enrironment to build the source:
+
+sh ../scripts/mingw-install-environment-packages.sh
+
+
+To build application:
+
+perl build.pl --verbose
+
+
+To execute application:
+
+./build/msys/bin/tsgui.exe
+
+
+To optimize application size:
+
+sh ../scripts/optimize-executable-win32.sh
